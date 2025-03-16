@@ -1,61 +1,61 @@
 @import url(variables.css);
-footer{
-    background-color: #000000;
-    display: flex;
-    margin-top: 50px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 200px;
+footer {
+  background-color: #000000;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 200px;
 }
 
-.footer-logo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 8px;
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
 }
 
-.redes{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
-.footer-secciones{
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-    color: var(--color-subtitulo);
+.footer-secciones {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--color-subtitulo);
 }
 
-.footer-secciones h3{
-    font-size: var(--tamano-subtitulo);
+.footer-secciones h3 {
+  font-size: var(--tamano-subtitulo);
 }
 
-.footer-secciones a{
-    text-decoration: none;
-    color: var(--color-subtitulo);
-    font-size: var(--tamano-links);
-    font-weight: var(--font-weight-regular);
+.footer-secciones a {
+  text-decoration: none;
+  color: var(--color-subtitulo);
+  font-size: var(--tamano-links);
+  font-weight: var(--font-weight-regular);
 }
 
-.footer-contactos{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    color: var(--color-subtitulo);
+.footer-contactos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--color-subtitulo);
 }
-.footer-contactos h3{
-    font-size: var(--tamano-subtitulo);
+.footer-contactos h3 {
+  font-size: var(--tamano-subtitulo);
 }
 
 @media (max-width: 768px) {
-    .footer {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .footer .column {
-      padding: 10px 0;
-    }
+  .footer {
+    flex-direction: column;
+    text-align: center;
   }
+
+  .footer .column {
+    padding: 10px 0;
+  }
+}

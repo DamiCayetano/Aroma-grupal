@@ -1,6 +1,5 @@
-function cards (imagen, estrella, cantidad, descripcion, precio, corazon  ){
-        let Bebidas_cards = 
-        `<article class="card">
+function cards(imagen, estrella, cantidad, descripcion, precio, corazon) {
+  let Bebidas_cards = `<article class="card">
             <img class="img-card" src="./assets/img/${imagen}.png" alt="bebidas">
             <div class="contenido-card">
                 <div class="cantidad">
@@ -17,7 +16,7 @@ function cards (imagen, estrella, cantidad, descripcion, precio, corazon  ){
             </div>
         </article>`;
 
-        return Bebidas_cards;
+  return Bebidas_cards;
 }
 
-export default cards
+export default cards;
