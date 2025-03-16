@@ -1,98 +1,99 @@
 @import url(variables.css);
 
-
-
-
-.menu-banner img{
-    width: 100%;
+.nav-link {
+  color: var(--color-texto1);
+  font-weight: 400;
+}
+.menu-banner img {
+  width: 100%;
 }
 
-.menu-categorias{
-    margin-top: 50px;
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    align-items: center;
+.menu-categorias {
+  margin-top: 50px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
 }
 
-.menu-categorias a{
-    text-decoration: none;
-    font-size: var(--tamano-titulo-mobile);
-    font-size: var(--font-weight-medium);
-    color: var(--color-primario);
-    border: 1px solid var(--color-primario);
-    border-radius: 5px;
-    padding: 10px 10px;
+.menu-categorias a {
+  text-decoration: none;
+  font-size: var(--tamano-titulo-mobile);
+  font-size: var(--font-weight-medium);
+  color: var(--color-primario);
+  border: 1px solid var(--color-primario);
+  border-radius: 5px;
+  padding: 10px 10px;
 }
 
-.menu-bebidas{
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 100px;
-    gap: 70px;
+.menu-bebidas {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  gap: 70px;
 }
 
-.card{
-    align-items: center;
-    display: flex;
-    gap: 10px;
+.card {
+  align-items: center;
+  display: flex;
+  gap: 10px;
 }
 
-.imagen-card{
-    position: relative;
-    background-color: var(--color-primario);
-    width: 182px;
-    height: 151px;
-    border-radius: 30px;
+.imagen-card {
+  position: relative;
+  background-color: var(--color-primario);
+  width: 182px;
+  height: 151px;
+  border-radius: 30px;
 }
 
-.imagen-card img{
-    position: absolute;
-    top: -104px;
-    left: -23px;
+.imagen-card img {
+  position: absolute;
+  top: -104px;
+  left: -23px;
 }
 
-.contenido-card{
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
+.contenido-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
-.contenido-card h3{
-    font-size: var(--tamano-parrafo);
-    font-weight: var(--font-weight-semi-bold);
-    color: var(--color-fondo-black);
+.contenido-card h3 {
+  font-size: var(--tamano-parrafo);
+  font-weight: var(--font-weight-semi-bold);
+  color: var(--color-fondo-black);
 }
 
-.contenido-card p{
-    font-size: var(--tamano-subtitulo-mobil);
-    font-weight: var(--font-weight-regular);
+.contenido-card p {
+  font-size: var(--tamano-subtitulo-mobil);
+  font-weight: var(--font-weight-regular);
 }
 
-.contenido-datos{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.contenido-datos {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.contenido-datos p{
-    font-size: var(--tamano-subtitulo-mobil);
-    font-weight: var(--font-weight-regular);
+.contenido-datos p {
+  font-size: var(--tamano-subtitulo-mobil);
+  font-weight: var(--font-weight-regular);
 }
 
-.contenido-datos a{
-    text-decoration: none;
-    background-color: var(--color-fondo-black);
-    padding: 6px 10px;
-    border-radius: 5px;
-    color: var(--color-subtitulo);
-    font-size: var(--tamano-subtitulo-mobil);
-    font-weight: var(--font-weight-regular);
+.contenido-datos a {
+  text-decoration: none;
+  background-color: var(--color-fondo-black);
+  padding: 6px 10px;
+  border-radius: 5px;
+  color: var(--color-subtitulo);
+  font-size: var(--tamano-subtitulo-mobil);
+  font-weight: var(--font-weight-regular);
 }
 
-.contenido-datos a:hover{
-    background-color: var(--color-primario);
+.contenido-datos a:hover {
+  background-color: var(--color-primario);
 }
 
 @media screen  and (max-width: 768px){
@@ -106,7 +107,50 @@
     }
 }
 
+.footer {
+  background-color: var(--color-fondo-black);
+  color: #f1eade;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 20px;
+  width: 100%;
+}
+.footer .logo img {
+  width: 100px;
+}
+.footer .social-icons {
+  display: flex;
+  gap: 15px;
+}
+.footer .social-icons a {
+  color: #f1eade;
+  font-size: 24px;
+  text-decoration: none;
+}
 
+.footer .column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer .column a,
+.footer .column p {
+  color: #f1eade;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
 
-
-
+  .footer .column {
+    padding: 10px 0;
+  }
+}

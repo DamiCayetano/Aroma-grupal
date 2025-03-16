@@ -188,6 +188,10 @@ main{
         gap: 100px;
     }
 
+    .inicio-slogan{
+        padding: 0px 10px;
+    }
+
     .slogan-contenido p{
         display: none;
     }
