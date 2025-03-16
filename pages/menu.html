@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menú - Starbucks</title>
-    <link rel="stylesheet" href="../assets/css/header.css" />
+
     <link rel="stylesheet" href="../assets/css/footer.css" />
-    <link rel="stylesheet" href="../assets/css/nav_mobile.css" />
+
     <link rel="stylesheet" href="../assets/css/menu.css" />
 
     <link
@@ -31,33 +31,44 @@
     />
   </head>
   <body>
-    <main>
-        <header>
-            <div class="logo">
-                <img src="../assets/img/logo-starbucks.png" alt="logo">
-            </div>
-            <nav>
-                <a class="link" href="../index.html">Inicio</a>
-                <a class="link" href="../pages/nosotros.html">Nosotros</a>
-                <a class="link" href="../pages/menu.html">Menú</a>
-                <a class="link" href="../pages/locales.html">Locales</a>
-                <a class="link" href="../pages/contacto.html">Contacto</a>
-            </nav>
-            <div class="icons iconos">
-                <img src="../assets/img/bxs-user.svg.png" alt="">
-                <img src="../assets/img/bxs-cart.svg.png" alt="">
-            </div>
-        </header>
-        
-        <nav class="nav-bar-mobile">
-            <div class="nav-bar-logo">
-                <img src="../assets/img/logo-starbucks.png" alt="">
-            </div>
-            <div class="nav-bar-icono">
-                <img src="../assets/img/Menu.png" alt="">
-            </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+              <img src="../assets/img/image.png" alt="Aromma Logo" class="logo" width="100" height="100">
+          </a>
+  
+          <!-- Menú -->
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav gap-5">
+                  <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./menu.html">Menú</a></li>
+                  <li class="nav-item"><a class="nav-link active-link" href="./locales.html">Locales</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+              </ul>
+          </div>
+  
+          <!-- Iconos -->
+          <div class="icons d-flex align-items-center">
+              <img src="../assets/img/bxs-user.svg.png" width="36" height="36" alt="">
+              <img src="../assets/img/bxs-cart.svg.png" width="32" height="32" alt="">
+          </div>
 
+      <!-- Botón menú hamburguesa -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
       <section class="menu-banner">
         <img src="../assets/img/menu-benner.png" alt="" />
       </section>
@@ -77,27 +88,27 @@
       <section class="menu-bebidas" id="menu-bebidas"></section>
 
       <footer class="footer">
-        <div class="footer-logo">
-          <img src="../assets/img/logo-footer.png" alt="" />
-          <div class="redes">
-            <img src="../assets/img/instagram.png" alt="" />
-            <img src="../assets/img/facebook.png" alt="" />
-            <img src="../assets/img/tiktok.png" alt="" />
+        <div class="logo">
+          <img src="../assets/img/logo-oscuro.png" alt="Aromma Coffee Shop" />
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
           </div>
         </div>
-        <div class="footer-secciones">
-          <h3>Empresa</h3>
-          <a href="../index.html">Inicio</a>
-          <a href="../pages/nosotros.html">Nosotros</a>
-          <a href="../pages/menu.html">Menú</a>
-          <a href="../pages/locales.html">Locales</a>
-          <a href="../pages/contacto.html">Contacto</a>
+        <div class="column">
+          <h3>EMPRESA</h3>
+          <a href="#">Inicio</a>
+          <a href="#">Nosotros</a>
+          <a href="#">Menú</a>
+          <a href="#">Locales</a>
+          <a href="#">Contacto</a>
         </div>
-        <div class="footer-contactos">
-          <h3>Contacto</h3>
+        <div class="column">
+          <h3>CONTACTO</h3>
           <p>Atención - 10:00 am a 11:00 pm</p>
           <p>Av. Javier Prado 446</p>
-          <p>Aromma@gmail.com</p>
+          <p>Aromma@Gmail.Com</p>
           <p>957-055-318</p>
         </div>
       </footer>
