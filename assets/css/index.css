@@ -192,10 +192,6 @@ main{
         padding: 0px 10px;
     }
 
-    .slogan-contenido h2{
-        font-size: var(--tamano-descripcion);
-    }
-
     .slogan-contenido p{
         display: none;
     }
