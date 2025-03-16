@@ -211,4 +211,8 @@
     .inputs input, .inputs textarea, .inputs button, .news-cont input, .news-cont button {
         width: 100%;
     }
+
+    .navbar .container .icons img {
+        display: none;
+    }
 }

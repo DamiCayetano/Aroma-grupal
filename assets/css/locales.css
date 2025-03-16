@@ -183,6 +183,10 @@ iframe {
     .footer .column {
         padding: 10px 0;
     }
+
+    .navbar .container .icons img {
+        display: none;
+    }
 }
 
 

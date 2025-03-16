@@ -203,5 +203,9 @@ main{
     .inicio-slogan{
         height: 100px;
     }
+
+    .navbar .container .icons img {
+        display: none;
+    }
     
 }

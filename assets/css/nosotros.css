@@ -156,6 +156,7 @@ ul li {
   .imagen img {
     width: 100%;
   }
+
 }
 
 /*Quiénes Somosssssssssssss */
@@ -304,5 +305,9 @@ ul li {
 
   .footer .column {
     padding: 10px 0;
+  }
+
+  .navbar .container .icons img {
+    display: none;
   }
 }
