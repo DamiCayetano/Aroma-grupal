@@ -1,6 +1,6 @@
 function cards (imagen, nombre, descripcion, precio, boton){
     let Menu_cards = 
-    `<article class="card">
+    `<article class="card-menu">
         <div class="imagen-card">
             <img src="../assets/img/${imagen}.png" alt="">
         </div>
