@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://damicayetano.github.io/Aroma-grupal/sitemap.xml
